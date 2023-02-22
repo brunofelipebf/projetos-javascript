@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "raleway", sans-serif;
+}
+
+body{
+    background: linear-gradient(
+        90deg,
+         lightblue 0%,
+         rgb(7, 151, 254) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    border: 2px solid white;
+    padding: 30px 20px;
+    width: 35%;
+    min-width: 500px;
+}
+
+.newTaskContainer{
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px whitesmoke;
+    display: flex;
+}
+
+.newTaskContainer input{
+    flex: 3;
+    font-size: 1rem;
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    padding: 12px;
+    font-weight: 500;
+}
+
+.new-task-container input:focus {
+    outline: none;
+    border-color: whitesmoke;
+  }
